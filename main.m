@@ -12,3 +12,5 @@ for i=1:filesNum
     data{i} = imread(['data\' folderName '\' filesName{i}]);
 end
 
+imshow(data{1});
+h = imrect;
