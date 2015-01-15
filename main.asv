@@ -1,7 +1,0 @@
-%%load data
-%load folder list
-list = textread('data\list.txt', '%s');
-
-%load first folder
-str = list{1, 1};
-files = dir(['data\' str '\ ]);
